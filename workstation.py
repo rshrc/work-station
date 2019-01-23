@@ -11,10 +11,10 @@ os.system("sh -c \"$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/ma
 
 # Installing most commanly used Python Libraries
 print("Installing required libraries for Machine Learning")
-os.system("sudo pip3 install -r machine_learning_req.txt")
+os.system("sudo pip3 install -r /../machine-learning/machine_learning_req.txt")
 
 print("Installing required libraries for Web Dev (Django)")
-os.system("sudo pip3 install -r web_dev_req.txt")
+os.system("sudo pip3 install -r /../server/web_dev_req.txt")
 
 print("Installing requited node.js and it's dependencies")
 os.system("sudo apt install nodejs")
@@ -24,7 +24,7 @@ os.system("npm install -g @angular/cli")
 os.system("sudo npm install -g create-react-app")
 
 print("Installing Android SDK")
-os.system("./install_android_sdk.bash")
+os.system("./android/install_android_sdk.bash")
 
 
 
