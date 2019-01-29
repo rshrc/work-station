@@ -28,13 +28,16 @@ This is the most basic of the script that gets Git, tmux and Oh-My-Zsh installed
 
 ## List of Arguments
 By default all the arguments take False, you the one, the chosen one, chooses the stuff to be installed 🔥🔥🔥
-`
---gtz   - Git, tmux and Oh-My-Zsh
---pylib - Python and Machine Learning Libraries
---dj    - Most commanly used Django Apps and django 2.0.8, which works, unlike the 2.1 
---fend  - All the stack you need, Node, npm, Angular, React.. Go Figure !!
---android - Yeah, this... It still does'nt work quite alright.. Try Installing Android Studio, it does it all
 
-`
+`--gtz   - Git, tmux and Oh-My-Zsh`
+
+`--pylib - Python and Machine Learning Libraries`
+
+`--dj    - Most commanly used Django Apps and django 2.0.8, which works, unlike the 2.1`
+
+`--fend  - All the stack you need, Node, npm, Angular, React.. Go Figure !!`
+
+`--android - Yeah, this... It still does'nt work quite alright.. Try Installing Android Studio, it does it all`
+
 ## I broke someone's PC
 Well, I wrote this, so that I dont have to go through the pain of installing everything all over again! LawL
