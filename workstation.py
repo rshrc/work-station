@@ -1,10 +1,13 @@
 import station_parser
-from winstaller.utils import Installer
+from winstaller.utils import UbuntuInstaller, ArchInstaller
 from gui_installer.gui_start import InstallerGUI
 
 args = station_parser.get_station_parser()
-installer = Installer()
 
+if args.ubuntu:
+    installer = UbuntuInstaller()
+if args.arch:
+    installer = ArchInstaller()
 
 print("Work Station Ready to be Created!")
 
