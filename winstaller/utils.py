@@ -43,6 +43,16 @@ class Installer:
     def android_installer(self):
         print("Installing Android SDK")
         os.system("./android/install_android_sdk.bash")
+        
+    #Added
+    def anaconda_installer(self):
+        print("Installing Anaconda")
+        os.system("cd /tmp")
+        os.system("curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh")
+        os.system("bash Anaconda3-2019.03-Linux-x86_64.sh ")
+        os.system("source ~/.bashrc")
+        os.system("conda update --all && conda upgrade --all")
+        
 
 class UbuntuInstaller(Installer):
 

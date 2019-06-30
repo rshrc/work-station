@@ -30,3 +30,6 @@ if args.gui:
     ins_gui = InstallerGUI()
     ins_gui.define_gui()
 
+#Added
+if args.conda:
+    installer.anaconda_installer()
