@@ -2,6 +2,9 @@ import station_parser
 from winstaller.utils import UbuntuInstaller, ArchInstaller
 from gui_installer.gui_start import InstallerGUI
 
+import os
+os.system("clear")
+
 args = station_parser.get_station_parser()
 
 if args.ubuntu:
